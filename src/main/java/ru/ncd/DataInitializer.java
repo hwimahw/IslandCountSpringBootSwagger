@@ -1,7 +1,9 @@
 package ru.ncd;
 
-public class DataInitializer {
+import org.springframework.stereotype.Component;
 
+@Component
+public class DataInitializer {
     public void dataInitialize(Data data, Matrix matrix, Graph graph){
 
             data.n = matrix.n;

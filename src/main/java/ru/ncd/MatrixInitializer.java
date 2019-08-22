@@ -1,15 +1,17 @@
 package ru.ncd;
 
+import org.springframework.stereotype.Component;
+
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.Scanner;
 
+@Component
 public class MatrixInitializer {
-
-    public InputStream fileStream;
 
 
     public void matrixInitialize(InputStream fileStream, Matrix matrix) throws FileNotFoundException {
+
         Scanner sc = new Scanner(fileStream);
         matrix.n = sc.nextInt();
         matrix.m = sc.nextInt();

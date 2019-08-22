@@ -1,5 +1,8 @@
 package ru.ncd;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class GraphInitializer {
     public void graphInitialize(Graph graph, Matrix matrix) {
         graph.n = matrix.n * matrix.m;
@@ -8,8 +11,7 @@ public class GraphInitializer {
         fillGraph(graph, matrix, matrix.n, matrix.m);
     }
 
-
-    public void fillGraphMiddlePartOfMatrix(Graph graph, Matrix matrix, int i, int j, int n, int m){
+    private void fillGraphMiddlePartOfMatrix(Graph graph, Matrix matrix, int i, int j, int n, int m){
         if (matrix.arrayMatrix[i][j] == '#') {
             graph.arrayGraph[i * m + j][i * m + j] = '1';
             if (matrix.arrayMatrix[i][j] == matrix.arrayMatrix[i][j - 1]) {
@@ -34,7 +36,7 @@ public class GraphInitializer {
 
     }
 
-    public void fillGraphFirstRowOfMatrixWithoutFirstAndLast(Graph graph, Matrix matrix, int i, int j, int n, int m){
+    private void fillGraphFirstRowOfMatrixWithoutFirstAndLast(Graph graph, Matrix matrix, int i, int j, int n, int m){
         if (matrix.arrayMatrix[i][j] == '#') {
             graph.arrayGraph[i * m + j][i * m + j] = '1';
             if (matrix.arrayMatrix[i][j] == matrix.arrayMatrix[i][j - 1]) {
@@ -54,7 +56,7 @@ public class GraphInitializer {
         }
     }
 
-    public void fillGraphLastRowOfMatrixWithoutFirstAndLast(Graph graph, Matrix matrix, int i, int j, int n, int m) {
+    private void fillGraphLastRowOfMatrixWithoutFirstAndLast(Graph graph, Matrix matrix, int i, int j, int n, int m) {
         if (matrix.arrayMatrix[i][j] == '#') {
             graph.arrayGraph[i * m + j][i * m + j] = '1';
             if (matrix.arrayMatrix[i][j] == matrix.arrayMatrix[i][j - 1]) {
@@ -72,7 +74,7 @@ public class GraphInitializer {
         }
     }
 
-    public void fillGraphFirstColumnOfMatrixWithoutFirstAndLast(Graph graph, Matrix matrix, int i, int j, int n, int m) {
+    private void fillGraphFirstColumnOfMatrixWithoutFirstAndLast(Graph graph, Matrix matrix, int i, int j, int n, int m) {
         if (matrix.arrayMatrix[i][j] == '#') {
             graph.arrayGraph[i * m + j][i * m + j] = '1';
             if(m > 1) {
@@ -93,7 +95,7 @@ public class GraphInitializer {
     }
 
 
-    public void fillGraphLeftUpAngleOfMatrix(Graph graph, Matrix matrix, int i, int j, int n, int m) {
+    private void fillGraphLeftUpAngleOfMatrix(Graph graph, Matrix matrix, int i, int j, int n, int m) {
         if (matrix.arrayMatrix[i][j] == '#') {
             graph.arrayGraph[i * m + j][i * m + j] = '1';
             if(m > 1) {
@@ -110,7 +112,7 @@ public class GraphInitializer {
             }
         }
     }
-    public void fillGraphRightUpAngleOfMatrix(Graph graph, Matrix matrix, int i, int j, int n, int m) {
+    private void fillGraphRightUpAngleOfMatrix(Graph graph, Matrix matrix, int i, int j, int n, int m) {
         if (matrix.arrayMatrix[i][j] == '#') {
             graph.arrayGraph[i * m + j][i * m + j] = '1';
             if(m > 1) {
@@ -128,7 +130,7 @@ public class GraphInitializer {
         }
     }
 
-    public void fillGraphLeftDownAngleOfMatrix(Graph graph, Matrix matrix, int i, int j, int n, int m) {
+    private void fillGraphLeftDownAngleOfMatrix(Graph graph, Matrix matrix, int i, int j, int n, int m) {
         if (matrix.arrayMatrix[i][j] == '#') {
             graph.arrayGraph[i * m + j][i * m + j] = '1';
             if(m > 1) {
@@ -144,7 +146,7 @@ public class GraphInitializer {
         }
     }
 
-    public void fillGraphRightDownAngleOfMatrix(Graph graph, Matrix matrix, int i, int j, int n, int m) {
+    private void fillGraphRightDownAngleOfMatrix(Graph graph, Matrix matrix, int i, int j, int n, int m) {
         if (matrix.arrayMatrix[i][j] == '#') {
             graph.arrayGraph[i * m + j][i * m + j] = '1';
             if (matrix.arrayMatrix[i][j] == matrix.arrayMatrix[i][j - 1]) {
@@ -159,7 +161,7 @@ public class GraphInitializer {
     }
 
 
-    public void fillGraphLastColumnOfMatrixWithoutFirstAndLast(Graph graph, Matrix matrix, int i, int j, int n, int m) {
+    private void fillGraphLastColumnOfMatrixWithoutFirstAndLast(Graph graph, Matrix matrix, int i, int j, int n, int m) {
         if (matrix.arrayMatrix[i][j] == '#') {
             graph.arrayGraph[i * m + j][i * m + j] = '1';
             if (matrix.arrayMatrix[i][j] == matrix.arrayMatrix[i][j - 1]) {

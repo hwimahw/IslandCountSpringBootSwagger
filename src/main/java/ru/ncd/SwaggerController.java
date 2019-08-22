@@ -20,9 +20,19 @@ public class SwaggerController {
     Data data;
     DataDAO dataDAO;
     FileInputStream fileInputStream;
-
     Matrix matrix;
+
+    @Autowired
     Graph graph;
+
+    @Autowired
+    MatrixInitializer mi;
+
+    @Autowired
+    GraphInitializer gi;
+
+    @Autowired
+    DataInitializer di;
 
 
     @Autowired
@@ -38,10 +48,6 @@ public class SwaggerController {
         this.matrix = matrix;
     }
     @Autowired
-    public void setGraph(Graph graph) {
-        this.graph = graph;
-    }
-    @Autowired
     public void setData(Data data) {
         this.data = data;
     }
@@ -53,12 +59,6 @@ public class SwaggerController {
     @RequestParam(name = "file") MultipartFile file) throws IOException{
 
         InputStream fileStream = file.getInputStream();
-
-        MatrixInitializer mi = new MatrixInitializer();
-
-        GraphInitializer gi = new GraphInitializer();
-
-        DataInitializer di = new DataInitializer();
 
         mi.matrixInitialize(fileStream, matrix);
 
