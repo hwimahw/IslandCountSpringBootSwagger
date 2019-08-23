@@ -66,7 +66,7 @@ public class SwaggerController {
 
         di.dataInitialize(data, matrix, graph);
 
-        dataDAO.addToDataBase(data, matrix, graph);
+     //   dataDAO.addToDataBase(data, matrix, graph);
     }
 }
 
