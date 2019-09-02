@@ -8,8 +8,6 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
 import java.io.InputStream;
-
-import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 import static org.springframework.http.MediaType.MULTIPART_FORM_DATA_VALUE;
 
 @RestController
@@ -21,18 +19,22 @@ public class SwaggerController {
     DataDAO dataDAO;
     FileInputStream fileInputStream;
     Matrix matrix;
-
-    @Autowired
     Graph graph;
-
-    @Autowired
     MatrixInitializer mi;
-
-    @Autowired
     GraphInitializer gi;
-
-    @Autowired
     DataInitializer di;
+
+ //   @Autowired
+ //   Graph graph;
+
+ //   @Autowired
+ //   MatrixInitializer mi;
+
+ //   @Autowired
+ //   GraphInitializer gi;
+
+ //   @Autowired
+ //   DataInitializer di;
 
 
     @Autowired
@@ -51,22 +53,36 @@ public class SwaggerController {
     public void setData(Data data) {
         this.data = data;
     }
+    @Autowired
+    public void setGraph(Graph graph) {
+        this.graph = graph;
+    }
+    @Autowired
+    public void setGi(GraphInitializer gi) {
+        this.gi = gi;
+    }
+    @Autowired
+    public void setMi(MatrixInitializer mi) {
+        this.mi = mi;
+    }
+    @Autowired
+    public void setDi(DataInitializer di) {
+        this.di = di;
+    }
 
-    @ResponseStatus(value = HttpStatus.CREATED)
-    @PostMapping(produces = APPLICATION_JSON_VALUE, consumes = MULTIPART_FORM_DATA_VALUE)
+    @ResponseStatus(value = HttpStatus.OK)
+    @PostMapping(consumes = MULTIPART_FORM_DATA_VALUE)
     public void postFile(
     @ApiParam(name = "file", value = "Файл", required = true)
     @RequestParam(name = "file") MultipartFile file) throws IOException{
-
         InputStream fileStream = file.getInputStream();
-
         mi.matrixInitialize(fileStream, matrix);
 
         gi.graphInitialize(graph, matrix);
 
         di.dataInitialize(data, matrix, graph);
 
-     //   dataDAO.addToDataBase(data, matrix, graph);
+        dataDAO.addToDataBase(data, matrix, graph);
     }
 }
 

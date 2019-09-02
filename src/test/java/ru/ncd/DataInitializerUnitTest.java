@@ -2,42 +2,33 @@ package ru.ncd;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
-
-import java.io.FileInputStream;
+import org.mockito.Mock;
+import org.mockito.Mockito;
+import org.mockito.runners.MockitoJUnitRunner;
 import java.io.FileNotFoundException;
-import java.io.InputStream;
+import java.io.IOException;
 import static org.junit.Assert.assertEquals;
-@RunWith(SpringRunner.class)
-@SpringBootTest
+@RunWith(MockitoJUnitRunner.class)
 public class DataInitializerUnitTest {
-    @Autowired
+
+
+    @Mock
     Matrix matrix;
 
-    @Autowired
-    MatrixInitializer mi;
-
-    @Autowired
+    @Mock
     Graph graph;
 
-    @Autowired
-    GraphInitializer gi;
-
-    @Autowired
+    @Mock
     Data data;
 
-    @Autowired
-    DataInitializer di;
-
     @Test
-    public void testDataInitialize() throws FileNotFoundException {
+    public void testDataInitialize() {
 
-        InputStream fileStream = new FileInputStream("/home/mansur/IdeaProjects/IslandCountSpringBoot/src/test/resources/input.txt");
-        mi.matrixInitialize(fileStream, matrix);
-        gi.graphInitialize(graph, matrix);
         DataInitializer di = new DataInitializer();
+        Mockito.when(matrix.getN()).thenReturn(1);
+        Mockito.when(matrix.getM()).thenReturn(2);
+        Mockito.when(matrix.toString()).thenReturn("##");
+        Mockito.when(data.countResult(matrix, graph)).thenReturn(1);
         di.dataInitialize(data, matrix, graph);
         assertEquals("n is not right", 1, data.n);
         assertEquals("n is not right", 2, data.m);

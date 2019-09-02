@@ -7,6 +7,17 @@ public class Matrix{
     public int m;
     public char[][] arrayMatrix;
 
+    public int getN() {
+        return n;
+    }
+
+    public int getM() {
+        return m;
+    }
+
+    public char[][] getArrayMatrix() {
+        return arrayMatrix;
+    }
 
     public String toString(){
         StringBuffer sb = new StringBuffer();
@@ -19,6 +30,18 @@ public class Matrix{
             }
         }
         return sb.toString();
+    }
+
+    public char[] toOneDimensionalArray(char[][] arrayMatrix){
+        char[] arr = new char[n*m];
+        int k = 0;
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < m; j++){
+                arr[k] = arrayMatrix[i][j];
+                k++;
+            }
+        }
+        return arr;
     }
 
 

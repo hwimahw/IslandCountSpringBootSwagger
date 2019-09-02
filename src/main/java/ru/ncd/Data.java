@@ -9,9 +9,9 @@ public class Data {
 
     public int countResult(Matrix matrix, Graph graph) {
         int quantityOfDots = 0;
-        for (int i = 0; i < matrix.n; i++) {
-            for (int j = 0; j < matrix.m; j++) {
-                if (matrix.arrayMatrix[i][j] == '.') {
+        for (int i = 0; i < matrix.getN(); i++) {
+            for (int j = 0; j < matrix.getM(); j++) {
+                if (matrix.getArrayMatrix()[i][j] == '.') {
                     quantityOfDots++;
                 }
             }
