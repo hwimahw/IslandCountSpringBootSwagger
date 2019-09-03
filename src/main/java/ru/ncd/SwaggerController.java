@@ -3,6 +3,7 @@ package ru.ncd;
 import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -72,7 +73,7 @@ public class SwaggerController {
 
     @ResponseStatus(value = HttpStatus.OK)
     @PostMapping(consumes = MULTIPART_FORM_DATA_VALUE)
-    public void postFile(
+    public Data postFile(
     @ApiParam(name = "file", value = "Файл", required = true)
     @RequestParam(name = "file") MultipartFile file) throws IOException{
         InputStream fileStream = file.getInputStream();
@@ -82,7 +83,7 @@ public class SwaggerController {
 
         di.dataInitialize(data, matrix, graph);
 
-        dataDAO.addToDataBase(data, matrix, graph);
+        return dataDAO.addToDataBase(data, matrix, graph);
     }
 }
 

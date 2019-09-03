@@ -7,7 +7,8 @@ public class Data {
     String matrix;
     int result;
 
-    public int countResult(Matrix matrix, Graph graph) {
+
+    public  int countResult(Matrix matrix, Graph graph) {
         int quantityOfDots = 0;
         for (int i = 0; i < matrix.getN(); i++) {
             for (int j = 0; j < matrix.getM(); j++) {
@@ -18,4 +19,5 @@ public class Data {
         }
         return graph.quantityOfIslands(graph) - quantityOfDots;
     }
+
 }

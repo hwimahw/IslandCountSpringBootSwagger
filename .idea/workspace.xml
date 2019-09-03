@@ -41,21 +41,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ru/ncd/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ru/ncd/Application.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/ru/ncd/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ru/ncd/Data.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ru/ncd/DataInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ru/ncd/DataInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ru/ncd/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ru/ncd/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ru/ncd/GraphInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ru/ncd/GraphInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ru/ncd/Matrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ru/ncd/Matrix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ru/ncd/MatrixInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ru/ncd/MatrixInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ru/ncd/DataDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ru/ncd/DataDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/ru/ncd/SwaggerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ru/ncd/SwaggerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/ru/ncd/DataInitializerUnitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/ru/ncd/DataInitializerUnitTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/ru/ncd/DataUnitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/ru/ncd/DataUnitTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/ru/ncd/GraphInitializerUnitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/ru/ncd/GraphInitializerUnitTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/ru/ncd/MatrixInitializerUnitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/ru/ncd/MatrixInitializerUnitTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/ru/ncd/MatrixUnitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/ru/ncd/MatrixUnitTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/ru/ncd/SwaggerControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/ru/ncd/SwaggerControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/IslandCountSpringBoot.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/IslandCountSpringBoot.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/ru/ncd/SwaggerControllerTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ru.ncd.SwaggerControllerTest.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
@@ -66,20 +55,10 @@
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ncd/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ncd/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/ncd/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ncd/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ncd/DataInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ncd/DataInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ncd/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ncd/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ncd/GraphInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ncd/GraphInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ncd/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ncd/Matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ncd/MatrixInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ncd/MatrixInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ncd/DataDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ncd/DataDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/ncd/SwaggerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ncd/SwaggerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/ncd/DataInitializerUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ncd/DataInitializerUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/ncd/DataUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ncd/DataUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/ncd/GraphInitializerUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ncd/GraphInitializerUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/ncd/MatrixInitializerUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ncd/MatrixInitializerUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/ncd/MatrixUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ncd/MatrixUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerUnitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PROJECT/.idea/checkstyle-idea.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../PROJECT/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../PROJECT/.idea/misc.xml" beforeDir="false" />
@@ -174,27 +153,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/ncd/MatrixInitializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/ncd/Matrix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/ncd/SwaggerConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
@@ -206,8 +164,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/ncd/DataUnitTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            <state relative-caret-position="82">
+              <caret line="36" column="27" lean-forward="true" selection-start-line="36" selection-end-line="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -216,10 +174,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/ncd/GraphInitializerUnitTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/ncd/DataDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="41" column="66" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
+            <state relative-caret-position="-652">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/ncd/Data.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerIntegrationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-19">
+              <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerUnitTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -230,37 +218,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/ncd/DataInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="51" column="18" lean-forward="true" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="145">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/ncd/Graph.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/ncd/GraphInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1044">
-              <caret line="60" selection-start-line="60" selection-end-line="70" selection-end-column="5" />
+            <state relative-caret-position="1692">
+              <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/ncd/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
-                <element signature="e#280#281#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#337#338#0" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#802#803#0" expanded="true" />
+                <element signature="e#864#865#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -269,23 +249,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/ncd/SwaggerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="78" column="8" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="10" />
+            <state relative-caret-position="207">
+              <caret line="85" column="15" selection-start-line="85" selection-start-column="15" selection-end-line="85" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/ncd/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#802#803#0" expanded="true" />
-                <element signature="e#864#865#0" expanded="true" />
+                <element signature="e#1235#1236#0" expanded="true" />
+                <element signature="e#1267#1268#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -309,6 +278,8 @@
       <find>file</find>
       <find>input.txt</find>
       <find>il</find>
+      <find>count</find>
+      <find>di.</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -333,10 +304,8 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/ncd/FileInputStream.java" />
         <option value="$USER_HOME$/File1" />
         <option value="$PROJECT_DIR$/src/test/resources/input.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/ncd/DataDAO.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/ru/ncd/DataInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/ncd/Data.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/ncd/DataUnitTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/ncd/GraphInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/ncd/Graph.java" />
@@ -347,8 +316,12 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/ncd/MatrixUnitTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/ncd/DataInitializerUnitTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/ncd/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/ncd/SwaggerController.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerUnitTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ncd/DataDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ncd/Data.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ncd/SwaggerController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerIntegrationTest.java" />
       </list>
     </option>
   </component>
@@ -414,13 +387,6 @@
               <item name="IslandCountSpringBoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="IslandCountSpringBoot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IslandCountSpringBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IslandCountSpringBoot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -438,17 +404,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ncd" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="IslandCountSpringBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IslandCountSpringBoot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IslandCountSpringBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -465,6 +420,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567522520497" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -507,47 +463,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.SwaggerControllerTest.postFileTest">
-    <configuration name="GraphInitializerUnitTest.testFillGraph" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.ncd.GraphInitializerUnitTest.testFillGraph&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MatrixInitializerUnitTest.testMatrixInitialize" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.ncd.MatrixInitializerUnitTest.testMatrixInitialize&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.SwaggerControllerIntegrationTest.postFile">
     <configuration name="MatrixUnitTest.testToOneDimensionalArray" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -568,12 +484,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MatrixUnitTest.testToString" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SwaggerControllerIntegrationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.ncd.MatrixUnitTest.testToString&quot;" />
+        <option name="scriptParameters" value="--tests ru.ncd.SwaggerControllerIntegrationTest" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SwaggerControllerIntegrationTest.postFile" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.ncd.SwaggerControllerIntegrationTest.postFile&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -594,6 +530,26 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;ru.ncd.SwaggerControllerTest.postFileTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SwaggerControllerUnitTest.postFileTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.ncd.SwaggerControllerUnitTest.postFileTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -700,21 +656,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.GraphInitializerUnitTest.testFillGraph" />
-      <item itemvalue="Gradle.MatrixInitializerUnitTest.testMatrixInitialize" />
-      <item itemvalue="Gradle.MatrixUnitTest.testToString" />
       <item itemvalue="Gradle.MatrixUnitTest.testToOneDimensionalArray" />
       <item itemvalue="Gradle.SwaggerControllerTest.postFileTest" />
-      <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.21" />
+      <item itemvalue="Gradle.SwaggerControllerUnitTest.postFileTest" />
+      <item itemvalue="Gradle.SwaggerControllerIntegrationTest.postFile" />
+      <item itemvalue="Gradle.SwaggerControllerIntegrationTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SwaggerControllerTest.postFileTest" />
+        <item itemvalue="Gradle.SwaggerControllerIntegrationTest.postFile" />
+        <item itemvalue="Gradle.SwaggerControllerIntegrationTest" />
+        <item itemvalue="Gradle.SwaggerControllerUnitTest.postFileTest" />
         <item itemvalue="Gradle.MatrixUnitTest.testToOneDimensionalArray" />
-        <item itemvalue="Gradle.MatrixUnitTest.testToString" />
-        <item itemvalue="Gradle.MatrixInitializerUnitTest.testMatrixInitialize" />
-        <item itemvalue="Gradle.GraphInitializerUnitTest.testFillGraph" />
+        <item itemvalue="Gradle.SwaggerControllerTest.postFileTest" />
       </list>
     </recent_temporary>
   </component>
@@ -742,44 +696,44 @@
       <workItem from="1567181799291" duration="18823000" />
       <workItem from="1567251504229" duration="13744000" />
       <workItem from="1567336915676" duration="1104000" />
-      <workItem from="1567404090462" duration="5322000" />
+      <workItem from="1567404090462" duration="5575000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SwaggerControllerTest_postFileTest - 2019.09.02 at 10h 01m 17s.xml">
-      <configuration name="SwaggerControllerTest.postFileTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="SwaggerControllerIntegrationTest_postFile - 2019.09.03 at 17h 35m 09s.xml">
+      <configuration name="SwaggerControllerIntegrationTest.postFile" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SwaggerControllerTest_postFileTest - 2019.09.02 at 10h 03m 34s.xml">
-      <configuration name="SwaggerControllerTest.postFileTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="SwaggerControllerIntegrationTest_postFile - 2019.09.03 at 17h 35m 55s.xml">
+      <configuration name="SwaggerControllerIntegrationTest.postFile" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SwaggerControllerTest_postFileTest - 2019.09.02 at 10h 05m 15s.xml">
-      <configuration name="SwaggerControllerTest.postFileTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="SwaggerControllerIntegrationTest_postFile - 2019.09.03 at 17h 37m 05s.xml">
+      <configuration name="SwaggerControllerIntegrationTest.postFile" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SwaggerControllerTest_postFileTest - 2019.09.02 at 10h 10m 00s.xml">
-      <configuration name="SwaggerControllerTest.postFileTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="SwaggerControllerIntegrationTest_postFile - 2019.09.03 at 17h 46m 27s.xml">
+      <configuration name="SwaggerControllerIntegrationTest.postFile" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SwaggerControllerTest_postFileTest - 2019.09.02 at 10h 14m 40s.xml">
-      <configuration name="SwaggerControllerTest.postFileTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="SwaggerControllerIntegrationTest_postFile - 2019.09.03 at 17h 46m 59s.xml">
+      <configuration name="SwaggerControllerIntegrationTest.postFile" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SwaggerControllerTest_postFileTest - 2019.09.02 at 10h 15m 08s.xml">
-      <configuration name="SwaggerControllerTest.postFileTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="SwaggerControllerIntegrationTest_postFile - 2019.09.03 at 17h 52m 04s.xml">
+      <configuration name="SwaggerControllerIntegrationTest.postFile" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SwaggerControllerTest_postFileTest - 2019.09.02 at 10h 17m 06s.xml">
-      <configuration name="SwaggerControllerTest.postFileTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="SwaggerControllerIntegrationTest_postFile - 2019.09.03 at 17h 52m 13s.xml">
+      <configuration name="SwaggerControllerIntegrationTest.postFile" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SwaggerControllerTest_postFileTest - 2019.09.02 at 10h 17m 22s.xml">
-      <configuration name="SwaggerControllerTest.postFileTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="SwaggerControllerIntegrationTest_postFile - 2019.09.03 at 17h 52m 35s.xml">
+      <configuration name="SwaggerControllerIntegrationTest.postFile" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SwaggerControllerTest_postFileTest - 2019.09.02 at 10h 19m 29s.xml">
-      <configuration name="SwaggerControllerTest.postFileTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="SwaggerControllerIntegrationTest_postFile - 2019.09.03 at 17h 52m 49s.xml">
+      <configuration name="SwaggerControllerIntegrationTest.postFile" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SwaggerControllerTest_postFileTest - 2019.09.02 at 10h 21m 31s.xml">
-      <configuration name="SwaggerControllerTest.postFileTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="SwaggerControllerIntegrationTest_postFile - 2019.09.03 at 17h 54m 20s.xml">
+      <configuration name="SwaggerControllerIntegrationTest.postFile" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206224000" />
+    <option name="totallyTimeSpent" value="206477000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -794,7 +748,7 @@
     <frame x="0" y="25" width="1366" height="696" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.36666667" visible="true" weight="0.2590909" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.36666667" visible="true" weight="0.17272727" />
       <window_info id="Structure" order="1" sideWeight="0.6333333" side_tool="true" weight="0.1689394" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -802,23 +756,24 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.329806" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.329806" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.17989418" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.31569666" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.329806" />
-      <window_info anchor="bottom" id="Build" order="8" weight="0.47795415" />
-      <window_info anchor="bottom" id="Application Servers" order="9" weight="0.329806" />
-      <window_info anchor="bottom" id="Spring" order="10" weight="0.329806" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.329806" />
-      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.329806" />
-      <window_info anchor="bottom" id="Database Changes" order="15" />
-      <window_info anchor="bottom" id="Version Control" order="16" weight="0.329806" />
+      <window_info anchor="bottom" id="CheckStyle" order="0" />
+      <window_info anchor="bottom" id="Inspection Results" order="1" weight="0.329806" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.329806" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.31393299" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4691358" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.329806" />
+      <window_info anchor="bottom" id="Build" order="9" weight="0.47795415" />
+      <window_info anchor="bottom" id="Application Servers" order="10" weight="0.329806" />
+      <window_info anchor="bottom" id="Spring" order="11" weight="0.329806" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.329806" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.329806" />
+      <window_info anchor="bottom" id="Database Changes" order="16" />
+      <window_info anchor="bottom" id="Version Control" order="17" weight="0.329806" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.022727273" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -840,19 +795,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerUnitTest.java</url>
           <line>25</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerUnitTest.java</url>
           <line>26</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerUnitTest.java</url>
           <line>29</line>
           <properties />
           <option name="timeStamp" value="9" />
@@ -1074,92 +1029,104 @@
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerUnitTest.java</url>
           <line>56</line>
           <properties />
           <option name="timeStamp" value="98" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerUnitTest.java</url>
           <line>57</line>
           <properties />
           <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerUnitTest.java</url>
           <line>58</line>
           <properties />
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerUnitTest.java</url>
           <line>59</line>
           <properties />
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerUnitTest.java</url>
           <line>62</line>
           <properties />
           <option name="timeStamp" value="103" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/ncd/SwaggerController.java</url>
-          <line>77</line>
+          <line>78</line>
           <properties />
           <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/ncd/SwaggerController.java</url>
-          <line>78</line>
+          <line>79</line>
           <properties />
           <option name="timeStamp" value="109" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/ncd/SwaggerController.java</url>
-          <line>80</line>
+          <line>81</line>
           <properties />
           <option name="timeStamp" value="110" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/ncd/SwaggerController.java</url>
-          <line>82</line>
+          <line>83</line>
           <properties />
           <option name="timeStamp" value="111" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerUnitTest.java</url>
           <line>64</line>
           <properties />
           <option name="timeStamp" value="114" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerUnitTest.java</url>
           <line>65</line>
           <properties />
           <option name="timeStamp" value="115" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/ncd/SwaggerController.java</url>
-          <line>85</line>
+          <line>86</line>
           <properties />
           <option name="timeStamp" value="116" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/ncd/SwaggerController.java</url>
-          <line>84</line>
+          <line>85</line>
           <properties />
           <option name="timeStamp" value="117" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerUnitTest.java</url>
           <line>60</line>
           <properties />
           <option name="timeStamp" value="118" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerIntegrationTest.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerIntegrationTest.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/ru/ncd/SwaggerController.java</url>
-          <line>74</line>
+          <line>75</line>
           <properties class="ru.ncd.SwaggerController" method="postFile">
             <option name="EMULATED" value="true" />
           </properties>
@@ -1172,7 +1139,6 @@
     <SUITE FILE_PATH="coverage/IslandCountSpringBoot$GraphInitializerUnitTest_testGraphInitialize.ic" NAME="GraphInitializerUnitTest.testGraphInitialize Coverage Results" MODIFIED="1566200767771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ncd/Result.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/ss.yml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/ncd/FileController.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.1.8.RELEASE/4e19ca13005f5175b8cf87c0d3a0df681d2e55c/spring-web-5.1.8.RELEASE-sources.jar!/org/springframework/web/context/WebApplicationContext.java">
@@ -1409,16 +1375,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ncd/DataDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -1426,34 +1382,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ncd/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/ncd/DataInitializerUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ncd/GraphInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="827">
-          <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ncd/MatrixUnitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1470,18 +1402,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ncd/FileInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -1489,20 +1409,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ncd/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#802#803#0" expanded="true" />
-            <element signature="e#864#865#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/ncd/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
+        <state relative-caret-position="900">
           <caret line="60" selection-start-line="60" selection-end-line="70" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1516,26 +1425,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ncd/DataInitializer.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ncd/GraphInitializerUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ncd/SwaggerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="78" column="8" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="10" />
+        <state relative-caret-position="141">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ncd/MatrixUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ncd/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ncd/Matrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/ncd/MatrixInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
+        <state relative-caret-position="195">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1543,10 +1474,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ncd/Matrix.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ncd/GraphInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        <state relative-caret-position="1692">
+          <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ncd/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#802#803#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ncd/DataInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ncd/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -1557,10 +1513,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ncd/GraphInitializerUnitTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="41" column="66" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
+        <state relative-caret-position="123">
+          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ncd/SwaggerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="85" column="15" selection-start-line="85" selection-start-column="15" selection-end-line="85" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1235#1236#0" expanded="true" />
+            <element signature="e#1267#1268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ncd/DataDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-652">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1569,21 +1547,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/ncd/DataUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        <state relative-caret-position="82">
+          <caret line="36" column="27" lean-forward="true" selection-start-line="36" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ncd/SwaggerControllerIntegrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="51" column="18" lean-forward="true" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-19">
+          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
         </state>
       </provider>
     </entry>

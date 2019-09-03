@@ -12,11 +12,13 @@ import java.sql.Statement;
 public class DataDAO {
 
 
-    public void addToDataBase(Data data, Matrix matrix, Graph graph) throws FileNotFoundException {
+    public Data addToDataBase(Data data, Matrix matrix, Graph graph) throws FileNotFoundException {
         data.matrix = matrix.toString();
         data.n = matrix.n;
         data.m = matrix.m;
         data.result = data.countResult(matrix, graph);
+
+       // Data dataa = new Data(matrix.n, matrix.m, matrix.toString(), Data.countResult(matrix, graph));
         int id = 1111;
         final String JDBC_DRIVER = "org.h2.Driver";
         final String DB_URL = "jdbc:h2:~/test";
@@ -50,5 +52,6 @@ public class DataDAO {
                 se.printStackTrace();
             }
         }
+        return data;
     }
 }
