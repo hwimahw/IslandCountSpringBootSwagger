@@ -7,6 +7,19 @@ public class Data {
     String matrix;
     int result;
 
+    public int getM() {
+        return m;
+    }
+
+    public int getN() {
+        return n;
+    }
+
+
+
+    public int getResult() {
+        return result;
+    }
 
     public  int countResult(Matrix matrix, Graph graph) {
         int quantityOfDots = 0;

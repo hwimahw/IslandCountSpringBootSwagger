@@ -49,9 +49,6 @@ public class SwaggerControllerUnitTest {
     DataDAO dataDao;
 
 
-  //  @InjectMocks
-  //  SwaggerController swaggerController;
-
     @Test
     public void postFileTest() throws Exception {
        //MockitoAnnotations.initMocks(swaggerController);

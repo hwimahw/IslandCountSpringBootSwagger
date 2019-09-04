@@ -17,7 +17,10 @@ public class DataDAO {
         data.n = matrix.n;
         data.m = matrix.m;
         data.result = data.countResult(matrix, graph);
-
+int a = data.n;
+int b = matrix.m;
+String str = data.matrix;
+int re = data.result;
        // Data dataa = new Data(matrix.n, matrix.m, matrix.toString(), Data.countResult(matrix, graph));
         int id = 1111;
         final String JDBC_DRIVER = "org.h2.Driver";
@@ -52,6 +55,7 @@ public class DataDAO {
                 se.printStackTrace();
             }
         }
+        System.out.println(re);
         return data;
     }
 }

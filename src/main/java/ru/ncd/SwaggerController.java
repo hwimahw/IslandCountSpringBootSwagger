@@ -1,9 +1,7 @@
 package ru.ncd;
 
 import io.swagger.annotations.*;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -16,16 +14,29 @@ import static org.springframework.http.MediaType.MULTIPART_FORM_DATA_VALUE;
 @Api(value = "/api/v1/file")
 public class SwaggerController {
 
-    Data data;
-    DataDAO dataDAO;
-    FileInputStream fileInputStream;
-    Matrix matrix;
-    Graph graph;
-    MatrixInitializer mi;
-    GraphInitializer gi;
-    DataInitializer di;
+    final Data data;
+    final DataDAO dataDAO;
+    final FileInputStream fileInputStream;
+    final Matrix matrix;
+    final Graph graph;
+    final MatrixInitializer mi;
+    final GraphInitializer gi;
+    final DataInitializer di;
 
- //   @Autowired
+    public SwaggerController(Data data, DataDAO dataDAO, FileInputStream fileInputStream, Matrix matrix, Graph graph, MatrixInitializer mi, GraphInitializer gi, DataInitializer di) {
+        this.data = data;
+        this.dataDAO = dataDAO;
+        this.fileInputStream = fileInputStream;
+        this.matrix = matrix;
+        this.graph = graph;
+        this.mi = mi;
+        this.gi = gi;
+        this.di = di;
+        System.out.println(11111111);
+    }
+
+
+    //   @Autowired
  //   Graph graph;
 
  //   @Autowired
@@ -38,7 +49,7 @@ public class SwaggerController {
  //   DataInitializer di;
 
 
-    @Autowired
+   /* @Autowired
     public void setDataDAO(DataDAO dataDAO){
         this.dataDAO = dataDAO;
     }
@@ -69,7 +80,7 @@ public class SwaggerController {
     @Autowired
     public void setDi(DataInitializer di) {
         this.di = di;
-    }
+    }*/
 
     @ResponseStatus(value = HttpStatus.OK)
     @PostMapping(consumes = MULTIPART_FORM_DATA_VALUE)
@@ -82,8 +93,9 @@ public class SwaggerController {
         gi.graphInitialize(graph, matrix);
 
         di.dataInitialize(data, matrix, graph);
-
-        return dataDAO.addToDataBase(data, matrix, graph);
+        Data data1 = dataDAO.addToDataBase(data, matrix, graph);
+        return data1;
+     //   return dataDAO.addToDataBase(data, matrix, graph);
     }
 }
 
