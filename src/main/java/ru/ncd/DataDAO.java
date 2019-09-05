@@ -12,15 +12,11 @@ import java.sql.Statement;
 public class DataDAO {
 
 
-    public Data addToDataBase(Data data, Matrix matrix, Graph graph) throws FileNotFoundException {
+    public Data addToDataBase(Data data, Matrix matrix, Graph graph) throws SQLException {
         data.matrix = matrix.toString();
         data.n = matrix.n;
         data.m = matrix.m;
         data.result = data.countResult(matrix, graph);
-int a = data.n;
-int b = matrix.m;
-String str = data.matrix;
-int re = data.result;
        // Data dataa = new Data(matrix.n, matrix.m, matrix.toString(), Data.countResult(matrix, graph));
         int id = 1111;
         final String JDBC_DRIVER = "org.h2.Driver";
@@ -36,12 +32,13 @@ int re = data.result;
             conn = DriverManager.getConnection(DB_URL, USER, PASS);
             System.out.println("Connected database successfully...");
             stmt = conn.createStatement();
-            String sql = "INSERT INTO datadata VALUES ("+ id + "," + data.n + "," + data.m + "," + "\'" + data.matrix + "\'" + ")";
+            String sql = "ISERT INTO datadata VALUES ("+ id + "," + data.n + "," + data.m + "," + "\'" + data.matrix + "\'" + ")";
             stmt.executeUpdate(sql);
             stmt.close();
             conn.close();
-        } catch (SQLException se) {
-            se.printStackTrace();
+        } catch (SQLException ex) {
+            throw ex;
+          //  se.printStackTrace();
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
@@ -55,7 +52,6 @@ int re = data.result;
                 se.printStackTrace();
             }
         }
-        System.out.println(re);
         return data;
     }
 }

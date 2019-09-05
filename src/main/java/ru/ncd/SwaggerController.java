@@ -7,6 +7,8 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.sql.SQLException;
+
 import static org.springframework.http.MediaType.MULTIPART_FORM_DATA_VALUE;
 
 @RestController
@@ -86,16 +88,19 @@ public class SwaggerController {
     @PostMapping(consumes = MULTIPART_FORM_DATA_VALUE)
     public Data postFile(
     @ApiParam(name = "file", value = "Файл", required = true)
-    @RequestParam(name = "file") MultipartFile file) throws IOException{
+    @RequestParam(name = "file") MultipartFile file) throws Exception  {
         InputStream fileStream = file.getInputStream();
+
+        CheckFileCorrectness checkFileCorrectness = new CheckFileCorrectness();
+        checkFileCorrectness.check(fileStream);
+
         mi.matrixInitialize(fileStream, matrix);
 
         gi.graphInitialize(graph, matrix);
 
         di.dataInitialize(data, matrix, graph);
-        Data data1 = dataDAO.addToDataBase(data, matrix, graph);
-        return data1;
-     //   return dataDAO.addToDataBase(data, matrix, graph);
+
+        return dataDAO.addToDataBase(data, matrix, graph);
     }
 }
 

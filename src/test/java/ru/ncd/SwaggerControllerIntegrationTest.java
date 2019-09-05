@@ -36,7 +36,7 @@ public class SwaggerControllerIntegrationTest  {
             return "input.txt";
         }
     };*/
-        MultipartFile file = new MockMultipartFile("file", "input.txt", MediaType.MULTIPART_FORM_DATA_VALUE, fis);
+       // MultipartFile file = new MockMultipartFile("file", "input.txt", MediaType.MULTIPART_FORM_DATA_VALUE, fis);
         ClassPathResource resource  = new ClassPathResource("input.txt");
         MultiValueMap<String, Object> parameters = new LinkedMultiValueMap<>();
         parameters.add("file", resource);
@@ -46,7 +46,6 @@ public class SwaggerControllerIntegrationTest  {
                 new HttpEntity<>(parameters, headers);
       //  Data data = restTemplate.postForObject("/api/v1/file", requestEntity, Data.class);
         Data data = restTemplate.exchange("/api/v1/file", HttpMethod.POST,requestEntity, Data.class).getBody();
-        String str = data.matrix;
         assertEquals("result is not right", 1, data.getResult());
 
     }
