@@ -1,8 +1,9 @@
 package ru.ncd;
 
 import org.springframework.stereotype.Component;
+import ru.ncd.objects.Graph;
+import ru.ncd.objects.Matrix;
 
-import java.io.FileNotFoundException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -32,7 +33,7 @@ public class DataDAO {
             conn = DriverManager.getConnection(DB_URL, USER, PASS);
             System.out.println("Connected database successfully...");
             stmt = conn.createStatement();
-            String sql = "ISERT INTO datadata VALUES ("+ id + "," + data.n + "," + data.m + "," + "\'" + data.matrix + "\'" + ")";
+            String sql = "INSERT INTO datadata VALUES ("+ id + "," + data.n + "," + data.m + "," + "\'" + data.matrix + "\'" + ")";
             stmt.executeUpdate(sql);
             stmt.close();
             conn.close();

@@ -1,15 +1,15 @@
 package ru.ncd;
 
-import java.io.FileNotFoundException;
+import ru.ncd.exceptions.MatrixException;
+import ru.ncd.exceptions.SizeMatrixException;
+
 import java.io.InputStream;
-import java.util.InputMismatchException;
 import java.util.Scanner;
-import java.io.FileInputStream;
 
 
 public class CheckFileCorrectness {
 
-    public void check(InputStream inputStream) throws Exception, InputMismatchException, MatrixException, SizeMatrixException {
+    public void check(InputStream inputStream) throws Exception {
         Scanner sc = new Scanner(inputStream);
         int quantityOfRows = 0;
         int n = sc.nextInt();

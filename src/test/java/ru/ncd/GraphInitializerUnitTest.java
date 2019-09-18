@@ -5,6 +5,10 @@ import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.runners.MockitoJUnitRunner;
+import ru.ncd.objectInitializers.GraphInitializer;
+import ru.ncd.objects.Graph;
+import ru.ncd.objects.Matrix;
+
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 @RunWith(MockitoJUnitRunner.class)

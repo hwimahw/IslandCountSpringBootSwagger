@@ -5,8 +5,9 @@ import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.runners.MockitoJUnitRunner;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import ru.ncd.objects.Graph;
+import ru.ncd.objects.Matrix;
+
 import static org.junit.Assert.assertEquals;
 @RunWith(MockitoJUnitRunner.class)
 public class DataInitializerUnitTest {
